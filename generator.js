@@ -5,7 +5,7 @@ function startGenerator() {
     generateAge();
     generateHair();
 	generatefujinum();
-	//generateStaytime();
+	generateStaytime();
     generateEyes();
     generateAttribute();
     generateCharacter();
@@ -44,7 +44,7 @@ function generateSkin() {
 }
 
 function generateBody() {
-    var height = normalDistribution(180, 5);
+    var height = normalDistribution(182, 5);
     height = Math.round(height);
     var text1 = document.getElementById("height");
     text1.innerHTML=height;
