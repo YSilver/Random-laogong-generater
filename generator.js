@@ -13,7 +13,6 @@ function startGenerator() {
    //generateHairData();
     generateSuperPower();
     generateSkin();
-	
 }
 
 /*
@@ -25,6 +24,7 @@ function generateHairData() {
     randomData("Hairdata",Haircolor_data);
 }
 */
+
 
 function generateStaytime(){
 	randomData("staytime",staytime_data);
