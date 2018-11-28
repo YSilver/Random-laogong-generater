@@ -13,6 +13,7 @@ function startGenerator() {
    //generateHairData();
     generateSuperPower();
     generateSkin();
+	generatelocation();
 }
 
 /*
@@ -25,6 +26,9 @@ function generateHairData() {
 }
 */
 
+function generatelocation(){
+	randomData("locationdata",easy_location_for_fun);	
+}
 
 function generateStaytime(){
 	randomData("staytime",staytime_data);
